@@ -14,6 +14,7 @@ password='Heidelberg'
 
 driver = webdriver.Chrome()
 url = 'http://www.youtube.com'
+print(driver.title)
 driver.get(url)
 driver.maximize_window()
 
